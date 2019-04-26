@@ -33,7 +33,7 @@ In the original paper, Duelist Algorithm was shown to out-perform a few state-of
 This algorithm is fully implemented in Python. It is recommended to use Python 3.X. Library dependencies: <b>
 - numpy 1.15.4
 ```
-$pip install numpy
+$ pip install numpy
 ```
 
 <b>
@@ -41,7 +41,7 @@ $pip install numpy
 # How to Use
 First download the git repository. You can do this by clicking the download button or using the git command:
 ```
-git pull https://github.com/tsyet12/Duelist-Algorithm-Python
+$ git pull https://github.com/tsyet12/Duelist-Algorithm-Python
 ```
 <b>
 
