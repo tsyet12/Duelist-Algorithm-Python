@@ -60,7 +60,7 @@ You do not need to fill in variables with default values. They are for fine tuni
 
 #Increase the maximum generation for more precise answer
 DA=DuelistAlgorithm(f,x,xmin,xmax,max_gen=1000)
-DA.solve()
+DA.solve(plot=True)
 
 '''
 You should see the answer, it should look something like the following:

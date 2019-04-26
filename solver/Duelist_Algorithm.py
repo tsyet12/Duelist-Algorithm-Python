@@ -17,6 +17,8 @@
 import numpy as np
 import random
 import time
+import matplotlib.pyplot as mp
+
 class DuelistAlgorithm():
 	def __init__(self,f,x,xmin,xmax,pop=200,luck=0.01,mut=0.1,learn=0.8,max_gen=500,nc=5,shuffle=False):
 		#setup class variables
@@ -35,7 +37,8 @@ class DuelistAlgorithm():
 		self.battlescore=np.empty((pop,1),dtype=np.float64)
 		self.gen=0
 		self.shuffle=shuffle
-		
+		self.plotgen=[]
+		self.plotfit=[]
 		#check if multivariate optimization should be turned on.
 		if type(x) is list:
 			self.mult=1
@@ -54,7 +57,8 @@ class DuelistAlgorithm():
 		self.tmat=np.empty((x.__len__()+1,pop),dtype=np.float64)
 		self.bestlog=np.empty((0,x.__len__()+1),dtype=np.float64)
 		
-	def solve(self):
+	def solve(self,plot=False):
+		self.plot=plot
 		#steps for duelist algorithm
 		self.registration()
 		self.qualification()
@@ -112,6 +116,13 @@ class DuelistAlgorithm():
 		self.champion=self.tmat[:,0:self.nc]
 		print("#Generation ", self.gen)
 		print("Best Champion Fitness",self.tmat[:,0][0],"Solution",self.tmat[:,0][1::])
+		self.plotgen.append(self.gen)
+		if self.plotfit.__len__()==0:
+			self.plotfit.append(self.tmat[:,0][0])
+		elif self.tmat[:,0][0]<min(self.plotfit):
+			self.plotfit.append(self.tmat[:,0][0])
+		else:
+			self.plotfit.append(min(self.plotfit))
 		#let champion train duelists that are similar to themselves
 		for j in range(0,self.nc):
 			for i in range(0,self.x.__len__()):
@@ -169,5 +180,15 @@ class DuelistAlgorithm():
 	def announce_answer(self):
 		answerlog=self.bestlog[self.bestlog[:,0].argsort()]
 		print("Optimized using Duelist Algorithm. Answer is:",answerlog[0][1::], "with fitness of", answerlog[0][0])
+		if self.plot==True:
+			mp.plot(self.plotgen,self.plotfit)
+			mp.title("Duelist Algorithm Optimization")
+			mp.xlabel("Number of Generation")
+			mp.ylabel("Objective Function of Overall Best Solution")
+			mp.autoscale()
+			mp.show()
+	
+	def get_result():
+		return self.plotgen, self.plotfit
 		
-		
+	
