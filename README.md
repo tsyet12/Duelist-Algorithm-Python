@@ -140,3 +140,10 @@ Currently Version 1.0
 - [ ] Add a modified feature for faster convergence
 
 - [ ] Add result loging and export to csv
+
+
+# Contact Me
+
+If you have ideas or some opportunities for collaboration, feel free to send me an email. I will respond quickly.
+
+My email: tsyet12@gmail.com
