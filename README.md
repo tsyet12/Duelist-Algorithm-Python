@@ -111,6 +111,9 @@ DA=DuelistAlgorithm(f,x,xmin,xmax,max_gen=1000)
 DA.solve()
 ```
 
+For more examples refer to the python scripts in "examples" folder. [https://github.com/tsyet12/Duelist-Algorithm-Python/tree/master/examples]
+
+
 # Version
 
 Currently Version 1.0
