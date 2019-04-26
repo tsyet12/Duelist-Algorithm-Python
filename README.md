@@ -24,8 +24,8 @@ In the original paper, Duelist Algorithm was shown to out-perform a few state-of
 ![performance](images/performance.PNG)
 
 # Dependencies
-This algorithm is fully implemented in Python. It is recommended to use Python 3.X. <b>
--numpy 1.15.4
+This algorithm is fully implemented in Python. It is recommended to use Python 3.X. Library dependencies: <b>
+- numpy 1.15.4
 ```
 $pip install numpy
 ```
