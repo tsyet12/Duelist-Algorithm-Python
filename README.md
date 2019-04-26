@@ -108,8 +108,18 @@ x=["x1","x2"]
 
 ```python
 DA=DuelistAlgorithm(f,x,xmin,xmax,max_gen=1000)
-DA.solve()
+DA.solve(plot=True)
 ```
+
+***RESULTS***
+
+From the console we can deduce the optimal result (see Fig. 4) . The global optimal has a fitness of 25. So Duelist Algorithm performs well.
+![result1](images/results.PNG)
+*Fig 4. Optimal Results in Console*
+
+We can see that the algorithm quickly converges to the optimal point (see Fig. 5) as reported by the original article.
+![result2](images/results2.PNG)
+
 
 For more examples refer to the python scripts in "examples" folder. [https://github.com/tsyet12/Duelist-Algorithm-Python/tree/master/examples]
 
