@@ -32,7 +32,8 @@ In the original paper, Duelist Algorithm was shown to out-perform a few state-of
 # Dependencies
 This algorithm is fully implemented in Python. It is recommended to use Python 3.X. Library dependencies: <b>
 - numpy 1.15.4
-```
+	
+```BASH
 $ pip install numpy
 ```
 
@@ -40,26 +41,26 @@ $ pip install numpy
 
 # How to Use
 First download the git repository. You can do this by clicking the download button or using the git command:
-```
+```BASH
 $ git pull https://github.com/tsyet12/Duelist-Algorithm-Python
 ```
 <b>
   
 Move to the directory:
   
-```
+```BASH
 $ cd (directory of Duelist-Algorithm-Python)
 ```
 
 Run setup. The following command installs all files in directory:
 
-```
+```BASH
 $ pip install -e .
 ```
 
 Move to examples and run the examples
 
-```
+```BASH
 $ cd examples
 ```
 
@@ -71,20 +72,20 @@ $ cd examples
 
 ** Prerequisites **
 
-```
+```python
 from solver.Duelist_Algorithm import DuelistAlgorithm
 ```
 
 ** 1. Define your function. Say you want to minimize the equation f=(x1,x2) = (x1)^2+(x2)^2 **
 
-```
+```python
 def f(x1,x2):
 	return x1*x1+x2*x2
 ```
 
 ** 2. Define the variables that can be *manipulated* for optimization. Define their names as string and put them in an array. **
 
-```
+```python
 x=["x1","x2"]
 ```
 
@@ -105,14 +106,14 @@ x=["x1","x2"]
  Max. bound |  10    |  15     |
 
 
-```
-> xmin=[-2,5]
-> xmax=[10,15]
+```python
+ xmin=[-2,5]
+ xmax=[10,15]
 ```
 
-> 4. Setup the solver and start the solve procedure.
+** 4. Setup the solver and start the solve procedure. **
 
-```
+```python
 DA=DuelistAlgorithm(f,x,xmin,xmax,max_gen=1000)
 DA.solve()
 ```
