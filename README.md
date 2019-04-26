@@ -44,4 +44,23 @@ First download the git repository. You can do this by clicking the download butt
 $ git pull https://github.com/tsyet12/Duelist-Algorithm-Python
 ```
 <b>
+  
+Move to the directory:
+  
+```
+$ cd (directory of Duelist-Algorithm-Python)
+```
+
+Run setup. The following command installs all files in directory:
+
+```
+$ pip install -e .
+```
+
+Move to examples and run the examples
+
+```
+$ cd examples
+```
+
 
