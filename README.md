@@ -1,7 +1,7 @@
 # Duelist-Algorithm-Python
 A Python implementation of the paper : 
-Duelist Algorithm: An Algorithm Inspired by How Duelist Improve Their Capabilities in a Duel (2015)
-Totok Ruki Biyanto, Henokh Yernias Fibrianto, Gunawan Nugroho, Erny Listijorini, Titik Budiati, Hairul Huda
+Duelist Algorithm: An Algorithm Inspired by How Duelist Improve Their Capabilities in a Duel (2015) <b>
+Totok Ruki Biyanto, Henokh Yernias Fibrianto, Gunawan Nugroho, Erny Listijorini, Titik Budiati, Hairul Huda <b>
 https://arxiv.org/abs/1512.00708
 
 I would like to clarify that various figures of this README.md document is taken from the original artical as shown above.
@@ -22,4 +22,19 @@ In the Duelist Algorithm, the best solutions in a population are chosen as the c
 In the original paper, Duelist Algorithm was shown to out-perform a few state-of-art metaheuristic algorithm for some specific tasks. Therefore, it is very interesting.
 
 ![performance](images/performance.PNG)
+
+#Dependencies
+This algorithm is fully implemented in Python. It is recommended to use Python 3.X. <b>
+-numpy 1.15.4
+'''
+$pip install numpy
+'''
+
+
+# How to Use
+First download the git repository. You can do this by clicking the download button or using the git command:
+'''
+git pull https://github.com/tsyet12/Duelist-Algorithm-Python
+'''
+
 
