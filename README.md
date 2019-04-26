@@ -123,6 +123,10 @@ Currently Version 1.0
 # To-do
 - [X] Setup algorithm and show optimized solution
 
+- [X] Create Tutorials
+
+- [X] Update ReadMe
+
 - [ ] Add plot functions
 
 - [ ] Add a modified feature for faster convergence
