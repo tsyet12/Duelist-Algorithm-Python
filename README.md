@@ -143,7 +143,7 @@ Currently Version 1.0
 
 - [ ] Add a modified feature for faster convergence
 
-- [ ] Add result loging and export to csv
+- [ ] Add result logging and export to csv
 
 
 # Contact Me
