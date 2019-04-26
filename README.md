@@ -1,4 +1,4 @@
-# Duelist-Algorithm-Python [[![Build Status](https://travis-ci.com/tsyet12/Duelist-Algorithm-Python.svg?branch=master)](https://travis-ci.com/tsyet12/Duelist-Algorithm-Python)]
+# Duelist-Algorithm-Python [![Build Status](https://travis-ci.com/tsyet12/Duelist-Algorithm-Python.svg?branch=master)](https://travis-ci.com/tsyet12/Duelist-Algorithm-Python)
 A Python implementation of the paper : 
 Duelist Algorithm: An Algorithm Inspired by How Duelist Improve Their Capabilities in a Duel (2015) <b>
 Totok Ruki Biyanto, Henokh Yernias Fibrianto, Gunawan Nugroho, Erny Listijorini, Titik Budiati, Hairul Huda <b>
