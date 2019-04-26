@@ -121,9 +121,10 @@ DA.solve()
 Currently Version 1.0
 
 # To-do
+- [X] Setup algorithm and show optimized solution
 
-[ ] Add plot functions
+- [ ] Add plot functions
 
-[ ] Add a modified feature for faster convergence
+- [ ] Add a modified feature for faster convergence
 
-[ ] Add result loging
+- [ ] Add result loging
