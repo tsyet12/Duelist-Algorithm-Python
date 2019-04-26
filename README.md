@@ -97,17 +97,12 @@ x=["x1","x2"]
 
 > We can arrange this in a table that can be easily read:
 
->            --------------------
-
 > Variables  |  "x1"  | "x2"    |
-
->            --------------------
 
 > Min. bound |  -2	  |  5      |
 
 > Max. bound |  10	  |  15     |
 
->            --------------------
 
 ```
 xmin=[-2,5]
@@ -127,6 +122,8 @@ Currently Version 1.0
 
 # To-do
 
-[] Add plot functions
-[] Add a modified feature for faster convergence
-[] Add result loging
+[ ] Add plot functions
+
+[ ] Add a modified feature for faster convergence
+
+[ ] Add result loging
