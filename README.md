@@ -88,15 +88,25 @@ x=["x1","x2"]
 ```
 
 > 3. Define the boundaries for the manipulated variables:
+
 > Say:
+
 > x1 is bounded from -2 to 10 (-2 is min value of x1 and 10 is max value of x1)
+
 > x2 is bounded from 10 to 15 (10 is min value of x2 and 15 is max value of x2)
+
 > We can arrange this in a table that can be easily read:
+
 >            --------------------
+
 > Variables  |  "x1"  | "x2"    |
+
 >            --------------------
+
 > Min. bound |  -2	  |  5      |
+
 > Max. bound |  10	  |  15     |
+
 >            --------------------
 
 ```
@@ -115,4 +125,8 @@ DA.solve()
 
 Currently Version 1.0
 
+# To-do
 
+[] Add plot functions
+[] Add a modified feature for faster convergence
+[] Add result loging
