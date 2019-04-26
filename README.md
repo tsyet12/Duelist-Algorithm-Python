@@ -135,8 +135,8 @@ Currently Version 1.0
 
 - [X] Update ReadMe
 
-- [ ] Add plot functions
+- [X] Add plot functions
 
 - [ ] Add a modified feature for faster convergence
 
-- [ ] Add result loging
+- [ ] Add result loging and export to csv
