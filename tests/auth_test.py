@@ -6,3 +6,5 @@ xmin=[-2]
 xmax=[10]
 DA=DuelistAlgorithm(f,x,xmin,xmax,max_gen=100)
 DA.solve()
+
+print("test sucessful")
