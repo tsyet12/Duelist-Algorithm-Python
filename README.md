@@ -40,6 +40,11 @@ $ pip install numpy
 <b>
 
 # How to Use
+
+You can use two methods for installation:
+
+**1. From here (recommended as this will update faster)**
+
 First download the git repository. You can do this by clicking the download button or using the git command:
 ```BASH
 $ git pull https://github.com/tsyet12/Duelist-Algorithm-Python
@@ -63,6 +68,22 @@ Move to examples and run the examples
 ```BASH
 $ cd examples
 ```
+
+**1. From pip **
+You can try installing this package from pip. 
+
+Linux:
+
+```BASH
+$ pip install DuelistAlgorithmPython
+```
+
+Windows:
+
+```BASH
+$ python -m pip install DuelistAlgorithmPython
+```
+
 
 # Short Tutorial
 
