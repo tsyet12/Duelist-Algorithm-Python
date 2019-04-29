@@ -135,16 +135,45 @@ We can see that the algorithm quickly converges to the optimal point (see Fig. 5
 For more examples refer to the python scripts in "examples" folder. [https://github.com/tsyet12/Duelist-Algorithm-Python/tree/master/examples]
 
 
-# Small Tutorial on Complex Constraint using Karush-Kuhn-Tucker (KKT) conditions
+# Dealing with Complex Constraint using Karush-Kuhn-Tucker (KKT) conditions
 
 There will be some problems that have complex constraints. For example, constraints which depends on two or more manipulated variables.
 
-Say: we take the same problem from the **Short Tutorial**, and now we have an extra constraint, which is x1 must be larger than x2:
+*Example 1: Inequality*
+
+Say: 
+We take the same problem from the **Short Tutorial**, and now we have an extra constraint, which is x1 must be larger than x2:
+
 > x1>x2
 
 Using KKT conditions, we can put this constraint in the objective function:
 
-f=(x1,x2) = (x1)^2+(x2)^2 + (
+f=(x1,x2) = (x1)^2+(x2)^2 + max(0,x2-x1)
+
+Implementation:
+
+```python
+def f(x1,x2):
+	return x1*x1+x2*x2+max(0,x2-x1)
+```
+Continue from Step 2 of **Short Tutorial**.
+
+
+
+*Example 2: Equality*
+Say: 
+We take the same problem from the **Short Tutorial**, and now the extra constraint is x1 equal to x2:
+
+f=(x1,x2) = (x1)^2+(x2)^2 + (x2-x1)^2
+
+Implementation:
+
+```python
+def f(x1,x2):
+	return x1*x1+x2*x2+(x2-x1)*(x2-x1)
+```
+
+Continue from Step 2 of **Short Tutorial**.
 
 
 # Version
