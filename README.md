@@ -96,8 +96,15 @@ x=["x1","x2"]
  x1 is bounded from -2 to 10 (-2 is min value of x1 and 10 is max value of x1)
 
  x2 is bounded from 10 to 15 (10 is min value of x2 and 15 is max value of x2)
+ 
+  We can arrange these boundaries according to the definition array in step 2.
+  
+ | Variables | x1 | x2 |
+ | :---: | :---: | :---: |
+ | Min | -2 | 5 |
+ | Max | 10 | 15 |
 
- We can arrange these boundaries according to the definition array in step 2.
+The corresponding code is:
 
 ```python
  xmin=[-2,5]
