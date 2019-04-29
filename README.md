@@ -113,13 +113,17 @@ DA.solve(plot=True)
 
 ***RESULTS***
 
-From the console we can deduce the optimal result (see Fig. 4) . The global optimal has a fitness of 25. So Duelist Algorithm performs well.
+From the console we can deduce the optimal result (see Fig. 4) . The global optimal has a fitness of 25, while duelist algorithm found 25.01. Error of 0.01 can be reduced by putting more maximum generations in solver.
+
 ![result1](images/results.PNG)
+
 *Fig 4. Optimal Results in Console*
 
-We can see that the algorithm quickly converges to the optimal point (see Fig. 5) as reported by the original article.
-![result2](images/results2.PNG)
+We can see that the algorithm quickly converges to the optimal point (see Fig. 5) as reported by the original article. Note that graph is decreasing instead of increasing (in the case of original paper) because our objective is to MINIMIZE instead of maximizing. You can just add a negative sign in the function to get maximization.
 
+![result2](images/results2.png)
+
+*Fig 5. Quick convergence of Duelist Algorithm*
 
 For more examples refer to the python scripts in "examples" folder. [https://github.com/tsyet12/Duelist-Algorithm-Python/tree/master/examples]
 
@@ -135,8 +139,15 @@ Currently Version 1.0
 
 - [X] Update ReadMe
 
-- [ ] Add plot functions
+- [X] Add plot functions
 
 - [ ] Add a modified feature for faster convergence
 
-- [ ] Add result loging
+- [ ] Add result logging and export to csv
+
+
+# Contact Me
+
+If you have ideas or some opportunities for collaboration, feel free to send me an email. I will respond quickly.
+
+My email: tsyet12@gmail.com
