@@ -34,7 +34,7 @@ This algorithm is fully implemented in Python. It is recommended to use Python 3
 - numpy 1.15.4
 	
 ```BASH
-$ pip install numpy
+$ pip install numpy matplotlib
 ```
 
 <b>
