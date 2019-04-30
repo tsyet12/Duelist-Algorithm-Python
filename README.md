@@ -184,6 +184,9 @@ Continue from Step 2 of **Short Tutorial**.
 *Example 2: Equality*
 Say: 
 We take the same problem from the **Short Tutorial**, and now the extra constraint is x1 equal to x2:
+> x1=x2
+
+Using KKT conditions, we can put this constraint in the objective function:
 
 f=(x1,x2) = (x1)^2+(x2)^2 + (x2-x1)^2
 
