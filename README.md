@@ -145,7 +145,7 @@ From the console we can deduce the optimal result (see Fig. 4) . The global opti
 
 ![result1](images/results.PNG)
 
-*Fig 4. Optimal Results in Console*
+*Fig 4. Optimal Results in Console (Colour may vary according to your environment)*
 
 We can see that the algorithm quickly converges to the optimal point (see Fig. 5) as reported by the original article. Note that graph is decreasing instead of increasing (in the case of original paper) because our objective is to MINIMIZE instead of maximizing. You can just add a negative sign in the function to get maximization.
 
