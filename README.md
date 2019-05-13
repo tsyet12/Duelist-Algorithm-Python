@@ -44,7 +44,7 @@ $ pip install numpy matplotlib
 
 You can use two methods for installation:
 
-**1. From here (recommended as this will update faster)**
+***1. Install from github (recommended as this will download the newest version)***
 
 First download the git repository. You can do this by clicking the download button or using the git command:
 ```BASH
@@ -70,7 +70,7 @@ Move to examples and run the examples
 $ cd examples
 ```
 
-**1. From pip **
+***1. Install from pip ***
 You can try installing this package from pip. 
 
 Linux:
