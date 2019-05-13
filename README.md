@@ -32,6 +32,7 @@ In the original paper, Duelist Algorithm was shown to out-perform a few state-of
 # Dependencies
 This algorithm is fully implemented in Python. It is recommended to use Python 3.X. Library dependencies: <b>
 - numpy 1.15.4
+- matplotlib 
 	
 ```BASH
 $ pip install numpy matplotlib
