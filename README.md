@@ -3,6 +3,11 @@ A Python implementation of the paper :
 Duelist Algorithm: An Algorithm Inspired by How Duelist Improve Their Capabilities in a Duel (2015) <b>
 Totok Ruki Biyanto, Henokh Yernias Fibrianto, Gunawan Nugroho, Erny Listijorini, Titik Budiati, Hairul Huda <b>
 https://arxiv.org/abs/1512.00708
+	
+	
+	
+This implementation only uses numpy, which is mainly written in C for fast computational speed.
+
 
 I would like to clarify that various figures of this README.md document is taken from the original artical as shown above.
 
