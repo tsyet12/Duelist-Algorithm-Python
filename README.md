@@ -163,7 +163,7 @@ We can see that the algorithm quickly converges to the optimal point (see Fig. 5
 For more examples refer to the python scripts in "examples" folder. [https://github.com/tsyet12/Duelist-Algorithm-Python/tree/master/examples]
 
 
-# Dealing with Complex Constraint using Karush-Kuhn-Tucker (KKT) conditions
+# Dealing with Complex Constraint conditions
 
 There will be some problems that have complex constraints. For example, constraints which depends on two or more manipulated variables.
 
