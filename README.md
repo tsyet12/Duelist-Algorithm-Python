@@ -174,7 +174,7 @@ We take the same problem from the **Short Tutorial**, and now we have an extra c
 
 > x1>x2
 
-Using KKT conditions, we can put this constraint in the objective function:
+We can put this constraint in the objective function:
 
 f=(x1,x2) = (x1)^2+(x2)^2 + max(0,x2-x1)
 
@@ -195,7 +195,7 @@ We take the same problem from the **Short Tutorial**, and now the extra constrai
 
 > x1=x2
 
-Using KKT conditions, we can put this constraint in the objective function:
+We can put this constraint in the objective function:
 
 f=(x1,x2) = (x1)^2+(x2)^2 + (x2-x1)^2
 
